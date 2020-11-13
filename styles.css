@@ -73,7 +73,7 @@ body {
     max-width: 400px;
     width: 100%;
     height: 100%x;
-    background: :aliceblue;
+    background:aliceblue;
 }
   
 .shadow::before,
