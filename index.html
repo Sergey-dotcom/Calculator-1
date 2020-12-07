@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="styles.css">
+    
+</head>
+<body>
+    <h1>Calculator</h1>
+    <p> My first application written in HTML/CSS and JavaScript</p>
+    <hr>
+    <div class="wrapper">
+        <div class="calculator shadow">
+            <div class="input-wrapper">
+                <input disabled id="calculate" class="calculate"  value="0" />
+            </div>
+            <div class="keyboard">
+                <div class="keyboard-row">
+                    <button id="sqrt" class="key operation">sqrt</button>
+                    <button id="sqr" class="key  operation">x2</sup></button>
+                    <button id="C" class="key clearBtn">C</button>
+                    <button id="CE" class="key clearBtn">CE</button>
+                </div>
+                <div class="keyboard-row">
+                    <button id="digit7" class="key number">7</button>
+                    <button id="digit8" class="key number">8</button>
+                    <button id="digit9" class="key number">9</button>
+                    <button id="div" class="key  operation">/</button>
+                </div>
+                <div class="keyboard-row">
+                    <button id="digit4" class="key number">4</button>
+                    <button id="digit5" class="key number">5</button>
+                    <button id="digit6" class="key number">6</button>
+                    <button id="mul" class="key  operation">*</button>
+                </div>
+                <div class="keyboard-row">
+                    <button id="digit1" class="key number">1</button>
+                    <button id="digit2" class="key number">2</button>
+                    <button id="digit3" class="key number">3</button>
+                    <button id="sub" class="key  operation">-</button>
+                </div>
+                <div class="keyboard-row">
+                    <button id="decimal" class="key">.</button>
+                    <button id="digit0" class="key number">0</button>
+                    <button id="result" class=" key equal operation">=</button>
+                    <button  class="operation key">+</button>
+                </div>
+            </div>
+        </div> 
+    </div>
+<script src=calculator.js></script>
+</body>
+</html>
